@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorTransparent">#00000000</color>
+
+    <color name="iconColor">#0A1325</color>
+
+    <color name="primaryTextColor">#0A1325</color>
+
+    <!--Snack Bar Color-->
+    <color name="colorSnackBarGreen">#4BA712</color>
+    <color name="colorSnackBarRed">#DF0A0A</color>
+    <color name="textColorLightGreen">#7ED321</color>
+
+    <color name="dark_black">#232323</color>
+
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorGray">#DDDDDD</color>
+
+    <color name="text_secondary">#666666</color>
+    <color name="card_stroke">#E0E0E0</color>
+    <color name="score_background">#E8F5E9</color>
+    <color name="score_border">#81C784</color>
+    <color name="score_text_color">#2E7D32</color>
+</resources>

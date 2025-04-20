@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Quiz Demo</string>
+
+    <string name="default_internet_message">No internet connection.</string>
+    <string name="lbl_something_went_wrong">We are not able to process your request right now, please try again.</string>
+
+    <!--Button Text-->
+    <string name="btn_text_ok">OK</string>
+    <string name="btn_text_yes">Yes</string>
+
+    <string name="hint_email">Email</string>
+    <string name="msg_invalid_url">Invalid URL.</string>
+    <string name="msg_something_went_wrong">Something went wrong!</string>
+    <string name="quiz_app">Quiz App</string>
+    <string name="test_your_knowledge">Test Your Knowledge</string>
+    <string name="submit_answers">Submit Answers</string>
+    <string name="refresh_questions">Refresh Questions</string>
+    <string name="no_questions_available">No questions available.\nTap the refresh button to load questions.</string>
+    <string name="no_data_available">No data available</string>
+    <string name="try_again">Try again</string>
+    <string name="q1">Q1</string>
+    <string name="question">Question?</string>
+    <string name="category">Category</string>
+    <string name="option">Option</string>
+    <string name="last_score">Last Score</string>
+    <string name="quiz_result">Quiz Result</string>
+    <string name="quiz_completed">Quiz Completed!</string>
+    <string name="_0_10">0/10</string>
+    <string name="_0_per">0%</string>
+    <string name="start_new_quiz">Start New Quiz</string>
+    <string name="great_job">Great job!</string>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.result.ResultActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:elevation="4dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:title="@string/quiz_result"
+            app:titleTextColor="@color/white"
+            app:navigationIcon="@drawable/ic_back_white" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <TextView
+        android:id="@+id/tvResultTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_32dp"
+        android:text="@string/quiz_completed"
+        style="@style/Text.Bold.Large"
+        android:textSize="@dimen/dimen_24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appBarLayout" />
+
+    <TextView
+        android:id="@+id/tvScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_24dp"
+        android:textSize="@dimen/dimen_48sp"
+        style="@style/Text.Bold.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvResultTitle"
+        tools:text="@string/_0_10" />
+
+    <TextView
+        android:id="@+id/tvPercentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_16dp"
+        style="@style/Text.Regular.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvScore"
+        tools:text="@string/_0_per" />
+
+    <TextView
+        android:id="@+id/tvFeedback"
+        android:layout_width="@dimen/dimen_0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_32dp"
+        android:textAlignment="center"
+        style="@style/Text.SemiBold.Medium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPercentage"
+        tools:text="@string/great_job" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnStartNewQuiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_16dp"
+        android:text="@string/start_new_quiz"
+        style="@style/materialButtonStyle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
